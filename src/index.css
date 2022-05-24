@@ -1,0 +1,227 @@
+@font-face {
+  font-family: 'Fredoka';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/fredoka/v6/X7nP4b87HvSqjb_WIi2yDCRwoQ_k7367_B-i2yQag0-mac3O8SL8EemP.ttf) format('truetype');
+}
+* {
+  font-family: 'Fredoka';
+  transition: 0.5s ease-out;
+}
+body {
+  background: #171530;
+  transition: 0.5s ease-out;
+}
+body .dark {
+  background: red;
+}
+.country {
+  position: relative;
+  top: 20px;
+  transition: 1s;
+}
+.country h5 {
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.country h5:nth-child(2) {
+  font-size: 20px;
+}
+.forecast,
+.forecastDayTime {
+  z-index: 5;
+  transition: 1s;
+  color: white;
+  display: flex;
+  position: relative;
+  top: 450px;
+  border-radius: 30px;
+  width: 38.5%;
+  padding-left: 20px;
+  text-align: center;
+  background: #282553;
+}
+.forecast h2 {
+  position: absolute;
+}
+.forecastDayTime {
+  transition: 1s;
+  background: rgba(241, 154, 173, 0.6);
+}
+.forecastDayTime h2:nth-child(1) {
+  font-size: 25px;
+}
+.forecast-item {
+  position: relative;
+  margin-top: 50px;
+  transition: 1s;
+  margin-left: -10px;
+  padding-right: 20px;
+  font-size: 18px;
+}
+input {
+  position: relative;
+  left: 50%;
+  width: 40%;
+  font-size: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid blue;
+  color: white;
+  height: 50px;
+  outline: none;
+}
+.currentInfo {
+  transition: 1s;
+  position: relative;
+  top: 400px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.currentInfo h5 {
+  margin: 10px;
+  margin-top: 30px;
+  font-size: 17px;
+  flex: 1 2 30%;
+  text-align: center;
+}
+.forecast-day-time {
+  background: #7c6485 !important;
+  margin: 0px;
+  padding: 0px;
+}
+.forecast-day,
+.forecast-day-time {
+  position: relative;
+  transition: 1s;
+  left: 42%;
+  margin-top: 60px;
+  border-radius: 25px;
+  background: #0f0d1e;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  width: 54%;
+}
+.forecast-day h2 {
+  width: 50%;
+  font-size: 35px;
+  margin: 0px;
+}
+.forecast-day h1 {
+  font-size: 80px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+}
+.forecast-day span {
+  font-size: 18px;
+}
+.forecast-day img {
+  position: relative;
+  float: right;
+  width: 160px;
+  margin-top: -130px;
+  left: -10px;
+}
+.forecast-day h1 > span {
+  position: relative;
+  top: -39px;
+  left: -15px;
+  font-size: 25px;
+}
+.tomorrowDescription {
+  position: relative;
+  float: right;
+  font-size: 35px;
+  margin-top: 0px;
+  margin-right: -130px;
+}
+.sunset {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+}
+.background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: #493950;
+  height: 1000px;
+  height: 100%;
+  z-index: -2;
+  width: 100%;
+}
+.currentWeatherDay {
+  background: url('images/Moon.webp') no-repeat center bottom;
+  left: 0px;
+  position: absolute;
+  border-radius: 20px;
+  top: 0px;
+  height: 1000px;
+  width: 40%;
+  transition: 1s;
+}
+.currentWeather {
+  background: url('images/Blood.webp') no-repeat center bottom;
+  left: 0px;
+  position: absolute;
+  border-radius: 20px;
+  transition: 0.5s;
+  top: 0px;
+  height: 1000px;
+  width: 40%;
+}
+.currentTemp {
+  background: rgba(255, 255, 255, 0.2);
+  height: 200px;
+  color: white;
+  padding-left: 10px;
+  border-radius: 40px;
+  position: relative;
+  top: 50px;
+}
+.currentTemp h1 {
+  float: left;
+  font-size: 100px;
+  margin-top: 30px;
+  height: 150px;
+}
+.currentTemp h1 span {
+  position: relative;
+  top: -55px;
+  padding-left: 0px;
+  left: 10px;
+  font-size: 20px;
+}
+.currentTemp img {
+  float: right;
+  margin-top: 10px;
+  width: 150px;
+}
+.currentTemp span {
+  font-size: 33px;
+  padding-left: 15px;
+  left: 0px;
+}
+.currentTemp span:nth-child(3) {
+  top: -70px;
+}
+.description {
+  position: relative;
+  top: 100px;
+  float: right;
+  margin-right: -130px;
+  font-size: 35px;
+}
+.currentInfo {
+  color: white;
+}
